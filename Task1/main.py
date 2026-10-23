@@ -13,4 +13,5 @@ predictions = adaline.predict(X_test)
 
 
 accuracy = accuracy_score(y_test, predictions)
+print(predictions)
 print(f"Test accuracy: {accuracy * 100:.2f}%")
